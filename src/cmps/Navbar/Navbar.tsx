@@ -12,6 +12,8 @@ return (
   showLabels
   value={currPage}
   onChange={(event, newValue) => {
+    console.log(event);
+    
     setCurrPage(newValue);
   }}
 >

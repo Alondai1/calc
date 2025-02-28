@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/vite-env.d.ts","./src/cmps/calc/calc.tsx","./src/cmps/navbar/navbar.tsx","./src/services/dataservice.ts"],"version":"5.6.2"}

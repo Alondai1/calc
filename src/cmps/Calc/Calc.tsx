@@ -8,13 +8,18 @@ import Button from '@mui/material/Button'
 
 export const Calc = () => {
 
-    useEffect(() => {
-        setData({ ...data, daysUntil: daysUntilNext9th() })
-    }, [])
+
 
 
     const [data, setData] = useState(initialData)
     const [res, setRes] = useState('')
+
+
+
+    useEffect(() => {
+        setData({ ...data, daysUntil: daysUntilNext9th() })
+    }, [])
+
 
     const handleChange = (e: ChangeEvent<HTMLInputElement>) => {
         const { name, value } = e.target;
@@ -27,6 +32,12 @@ export const Calc = () => {
     const onCalc = () => {
         setRes(calc(data))
     }
+
+    // const isRent = () => {
+    //     const today = new Date();
+    //     const currentDay = today.getDate();
+    //     return currentDay >= 0 && currentDay < 9 ? 0 : 2500
+    // }
 
 
 
