@@ -1,6 +1,6 @@
 export const initialData = {
     currAmount: 10000,
-    rent: 2500,
+    rent: 3000,
     daysUntil: 10,
     osh: 18000,
     salary: 15700
